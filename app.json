@@ -26,6 +26,13 @@
     "web": {
       "favicon": "./assets/favicon.png"
     },
-    "plugins": ["@viro-community/react-viro"]
+    "plugins": [
+      "@reactvision/react-viro",
+      {
+        "android": {
+          "xRMode": "AR"
+        }
+      }
+    ]
   }
 }
